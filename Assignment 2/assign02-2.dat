@@ -1,0 +1,16 @@
+data;
+
+set TASKS := T1 T2 T3 T4 T5;
+set SKILLS := P1 P2 P3;
+
+param:  hours	h_cost	known_c	known_py  known_web rate_c  rate_py  rate_web:=
+  P1	  4		  5		1	1	1	5		5			5	
+  P2	 10		  5		0	1	1	0		3			1
+  P3	  7		  5		1	0	1	5		0			5;
+  
+param:	profit		c		py		web :=
+  T1	 250		5		0		 2
+  T2	 150		0		3		 0
+  T3	 200		0		6		 3
+  T4	 100		3		3		 3
+  T5	 250		2		3		 2;
